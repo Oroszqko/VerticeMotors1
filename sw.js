@@ -1,8 +1,8 @@
-const CACHE = 'vertice-v1';
-const CORE = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
+const CACHE = 'vertice-v3';
+const CORE = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png', './logo.png'];
 const EXTRA = [
   'https://cdn.tailwindcss.com/3.4.17',
-  'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap'
+  'https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap'
 ];
 self.addEventListener('install', e => {
   e.waitUntil((async () => {
